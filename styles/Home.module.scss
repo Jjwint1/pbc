@@ -1,0 +1,51 @@
+.gradient {
+    height: 100vh;
+    width: 100vw;
+    background-color: #42378f;
+    background-image: linear-gradient(170deg, #42378f 0%, #f53844 74%);
+    margin: 0;
+}
+
+.imgContainer {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+
+    img {
+        width: 50%;
+        height: auto;
+        position: absolute;
+        bottom: 0;
+        right: 30px;
+    }
+}
+
+.header {
+    height: 100vh;
+    width: 50vw;
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .title {
+        color: whitesmoke;
+        font-size: 2.9vw;
+        text-shadow: 5px 5px 40px white;
+        letter-spacing: 0.3rem;
+        font-weight: 500;
+    }
+
+    .welcome {
+        color: whitesmoke;
+        letter-spacing: 0.17rem;
+        font-weight: 200;
+        font-size: 1.3vw;
+        text-shadow: 3px 3px 20px white;
+        margin: 0 150px;
+        text-align: center;
+    }
+}
