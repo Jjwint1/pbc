@@ -49,3 +49,30 @@
         text-align: center;
     }
 }
+
+.buttonRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 25px 0;
+}
+
+.button {
+    margin: 20px 30px;
+    padding: 10px 30px;
+    border: 1px solid whitesmoke;
+    border-radius: 15px;
+    color: whitesmoke;
+    font-weight: 600;
+    letter-spacing: 0.2rem;
+    transition-duration: 0.4s;
+    font-size: 1vw;
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: whitesmoke;
+    color: black;
+    font-weight: 600;
+}
